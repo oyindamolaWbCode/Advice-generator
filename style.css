@@ -30,8 +30,30 @@ p{
     text-align: center;
 }
 
-.Advice{
+#Advice-number{
    color: rgb(74,210,146); 
+}
+
+.Adbice-line{
+    padding: 20px;
+}
+
+.next-Advice{
+    height: 50px;
+    width:50px;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(74,210,146);
+    border-radius: 100%;
+    top: 495px;
+    bottom: 0;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 @media (min-width: 374px) and (max-width: 480px){
@@ -43,4 +65,16 @@ p{
     background-color: rgb(49,58,73);
     color:white;
     }
+
+    .next-Advice{
+        height: 50px;
+        width:50px;
+        align-items: center;
+        position: absolute;
+        background-color: rgb(74,210,146);
+        border-radius: 100%;
+        top: 438px;
+        bottom: 0;
+    }
+    
 }
