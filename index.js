@@ -1,6 +1,6 @@
 const AdviceNumber = document.getElementById('Advice-number');
-const Advice = document.getElementsByClassName('Advice')
-const nextAdvice = document.getElementsByClassName('next-Advice');
+const Advice = document.getElementById('Advice')
+const nextAdvice = document.getElementById("NextAd")
 
 const Advice_Url = 'https://api.adviceslip.com/advice';
 
@@ -24,4 +24,5 @@ async function generateAdvice(){
     console.log(data)
 
     Advice.innerHTML = data.slip.advice;
+    AdviceNumber.innerHTML = data.slip.id;
 }
