@@ -16,7 +16,6 @@ p{
     color: white;
 }
 
-
 .containerAd{
    align-items: center;
     height: 300px;
@@ -50,11 +49,21 @@ p{
     bottom: 0;
 }
 
+.next-Advice:hover{
+
+    background-color:rgb(137, 234, 189) ;
+}
+
 img{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding-top: 12px;
+}
+
+#Advice{
+    margin-bottom: 40px;
 }
 
 @media (min-width: 374px) and (max-width: 480px){
@@ -78,4 +87,11 @@ img{
         bottom: 0;
     }
     
+    .containerAd .divider img{
+        /* background-image: url('./images/pattern-divider-mobile.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; */
+        display: none;
+    }
 }
