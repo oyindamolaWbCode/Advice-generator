@@ -24,6 +24,7 @@ async function generateAdvice(){
     console.log(data)
 
     Advice.innerHTML = data.slip.advice;
+    
     AdviceNumber.innerHTML = `
     <h4>ADVICE #${data.slip.id}</h4>
     `
