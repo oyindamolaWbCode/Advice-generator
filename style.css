@@ -193,10 +193,7 @@ img{
         top: 438px;
         bottom: 0;
     }
-    
-    .containerAd .divider img{
-        display: none;
-    }
+   
 }
 
 @media (max-width: 1025px){
@@ -212,12 +209,10 @@ img{
         bottom: 0;
     }
     
-    .containerAd .divider img{
-        display: none;
-    }
+    
 }
 
-@media (max-width: 4000px){
+/* @media (max-width: 4000px){
 
     .next-Advice{
      height: 50px;
@@ -230,5 +225,4 @@ img{
      bottom: 0;
  }
  
- 
-}
+ } */
